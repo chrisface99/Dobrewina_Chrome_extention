@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Title and H1 Collector",
+  "version": "1.0",
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
